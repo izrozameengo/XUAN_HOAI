@@ -1,0 +1,35 @@
+*{box-sizing: border-box;}
+#daudong {
+    text-indent: 30px;
+}
+#wrapper{
+    max-width: 960px;
+    margin: 0px auto;
+    height:auto;
+}
+#header{
+    background: #6AD4DD;
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+#main-content{
+    background: #bae8e5;
+    display: flex;
+}
+#content{
+    flex-basis: 60%;
+    min-height: 500px;
+}
+#sidebar{
+    background: rgba(115, 164, 164, 0.133);
+    flex-basis: 40%;
+}
+#footer{
+    background: #6AD4DD;
+    color:  rgb(15, 131, 151);
+    padding: 5px;
+}
+#colorcontent{
+    color: rgb(15, 131, 151);
+}
